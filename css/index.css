@@ -1,0 +1,93 @@
+ul,li,ol{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+html,body{
+  height: 100%;
+}
+
+#index{
+  background: url(../img/bg.png) no-repeat;
+  background-size: 100%;
+  height: 100%;
+}
+#header{
+  width: 100%;
+  min-height: 50px;
+  /* background: #999; */
+}
+@media (min-width: 576px) {
+  #header{
+    /* background: red; */
+    height: 80px;
+  }
+}
+@media (min-width: 992px) {
+  #header{
+    /* background: yellow; */
+    height: 100px;
+  }
+}
+@media (min-width: 1200px) {
+  #header{
+    /* background: #aaa; */
+    height: 150px;
+  }
+}
+#content{
+  /* background: #eee; */
+  padding: 40px;
+}
+.tab-list{
+  position: absolute;
+  top:-40px;
+  font-size: 0;
+}
+.tab-item{
+  display: inline-block;
+  height: 40px;
+  padding: 0 20px;
+  min-width: 146px;
+  text-align: center;
+  line-height: 40px;
+  background: #dceaf6;
+  font-size: 16px;
+  margin-right: 4px;
+  position: relative;
+
+}
+.tab-item .close{
+  position: absolute;
+  top:5px;
+  right: 5px;
+}
+.nav-left{
+  /* background: #fff; */
+  height: 400px;
+  position: relative;
+}
+
+.nav1 li{
+  background: #0c4a93;
+}
+.nav1 li a{
+  color: #2ad9f4
+}
+.nav1-active{
+  background: #fff !important;
+}
+.nav1-active>a{
+  color: blue !important;
+}
+
+.nav2{
+  position: absolute;
+  top:0;
+  right:0;
+  display: none;
+}
+
+.leftmeunbg {
+  background-color: rgba(27, 92, 168, 0.502);
+}
